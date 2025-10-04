@@ -1,0 +1,10 @@
+.Scoreboard {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height : 150px;
+}
+.score {
+    font-weight : 150px;
+    color : red;
+}

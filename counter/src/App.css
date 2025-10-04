@@ -1,0 +1,5 @@
+.score-page {
+  background-color: chartreuse;
+  display :flex;
+  flex-direction: column;
+}
