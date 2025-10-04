@@ -1,8 +1,8 @@
-import Container from './Container'
-import Button from './Button'
+
+import Button from '../Button/Button'
 import './App.css'
 import { useState } from 'react'
-  
+import Container from '../Container/Container';
 
 
 
@@ -19,7 +19,7 @@ function App () {
     <Container score={Score}/>
     </div>
     <Button input="+1" onClick={() => increment(1)} />
-    <Button input="+5" onClick={() => increment(5)} />
+    
     
     </>
   );
